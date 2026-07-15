@@ -1,0 +1,42 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #4facfe, #00f2fe);
+  text-align: center;
+  padding: 40px;
+  color: white;
+}
+
+h1 {
+  font-size: 36px;
+}
+
+#question {
+  font-size: 28px;
+  margin: 20px;
+}
+
+input {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
